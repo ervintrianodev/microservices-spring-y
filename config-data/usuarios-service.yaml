@@ -1,0 +1,7 @@
+#CONFIGURACION DEL USUARIO SERVICE
+server:
+  port: 8080
+
+spring:
+  application:
+    name: usuario-service
