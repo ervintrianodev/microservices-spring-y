@@ -1,0 +1,8 @@
+#CONFIGURACION DEL USUARIO SERVICE
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
