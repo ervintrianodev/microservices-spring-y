@@ -1,10 +1,10 @@
 #CONFIGURACIO DE USUARIOS-SERVICE
-server:
-  port: 8080
+#server:
+#  port: 8080
   
 spring:
-  application:
-    name: usuarios-service 
+#  application:
+#    name: usuarios-service 
      
   datasource:
     url: jdbc:mysql://localhost:3306/microservices_youtube

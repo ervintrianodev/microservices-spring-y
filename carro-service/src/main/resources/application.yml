@@ -1,10 +1,10 @@
 #CONFIGURACION DE CARROS-SERVICE
-server:
-  port: 8081
+#server:
+#  port: 8081
   
 spring:
-  application:
-    name: carros-service
+#  application:
+#    name: carros-service
     
   datasource:
     url: jdbc:mysql://localhost:3306/microservices_youtube
