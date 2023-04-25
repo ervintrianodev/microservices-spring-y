@@ -1,0 +1,5 @@
+package com.usuario.service.repositoriesImpl;
+
+public class UsuarioServiceImpl {
+
+}

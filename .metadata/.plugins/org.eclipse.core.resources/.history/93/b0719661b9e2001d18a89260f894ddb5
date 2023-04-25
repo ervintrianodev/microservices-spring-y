@@ -1,0 +1,13 @@
+package com.usuario.feign.clients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.usuario.models.Moto;
+
+@FeignClient(name = "motos-service", url = "http://localhost:8083")
+public interface IMotoFeignClient {
+
+	public Moto save(@RequestBody Moto moto);
+
+}

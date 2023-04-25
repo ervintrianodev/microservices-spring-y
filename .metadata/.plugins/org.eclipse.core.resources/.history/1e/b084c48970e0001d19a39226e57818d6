@@ -1,0 +1,5 @@
+package com.moto.services;
+
+public interface IMotoService {
+
+}

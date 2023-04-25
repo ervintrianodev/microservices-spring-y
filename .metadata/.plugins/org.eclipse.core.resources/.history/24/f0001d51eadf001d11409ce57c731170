@@ -1,0 +1,5 @@
+package com.usuario.service.repositories;
+
+public interface IUsuariosRepository {
+
+}

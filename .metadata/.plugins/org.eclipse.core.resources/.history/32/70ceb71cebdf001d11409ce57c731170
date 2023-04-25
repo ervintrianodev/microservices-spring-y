@@ -1,0 +1,21 @@
+package com.usuario.service.servicesImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.usuario.service.models.Usuario;
+import com.usuario.service.repositories.IUsuariosRepository;
+
+@Service
+public class UsuarioServiceImpl {
+	
+	@Autowired
+	private IUsuariosRepository iUsuariosRepository;
+	
+	private List<Usuario> findAll(){
+		
+	}
+	
+}
