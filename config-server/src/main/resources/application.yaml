@@ -8,7 +8,9 @@ spring:
       server:
         git:
          # default-label: config-server
-          default-label: eureka 
+         # default-label: eureka
+         # default-label: mult-instances
+          default-label: gateway 
           uri: https://github.com/ervintrianodev/microservices-spring-y
           search-paths:
           - config-data

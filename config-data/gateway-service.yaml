@@ -1,0 +1,36 @@
+#CONFIGURACION DE GATEWAY SERVICE
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      instance-id: hostname
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: usuarios-service
+          uri: lb://usuarios-service
+          predicates:
+            - Path=/users/**
+        - id: carros-service
+          uri: lb://carros-service
+          predicates:
+            - Path=/cars/**
+        - id: motos-service
+          uri: lb://motos-service
+          predicates:
+            - Path=/motos/**
