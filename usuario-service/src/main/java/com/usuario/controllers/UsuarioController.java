@@ -18,7 +18,6 @@ import com.usuario.models.Moto;
 import com.usuario.services.IUsuarioService;
 
 @RestController
-@RequestMapping("/users")
 public class UsuarioController {
 
 	@Autowired
