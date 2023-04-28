@@ -39,6 +39,6 @@ spring:
         - id: carros-service
           uri: lb://CARROS-SERVICE
           predicates:
-            - Path=/api/carros/**
+            - Path=/api/cars/**
           filters:
             - StripPrefix=2

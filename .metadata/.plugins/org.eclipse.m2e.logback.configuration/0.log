@@ -2897,3 +2897,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:nett
 2023-04-28 13:20:21,058 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-04-28 13:20:21,060 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-04-28 13:20:21,061 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\evans\Documents\workspaces\SpringMicroserviciosYoutube\usuario-service\src\test\resources
+2023-04-28 13:57:45,223 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 13:57:45,271 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-04-28 13:57:45,272 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\evans\Documents\workspaces\SpringMicroserviciosYoutube\usuario-service\src\test\resources
+2023-04-28 13:57:51,202 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
