@@ -10,7 +10,8 @@ spring:
          # default-label: config-server
          # default-label: eureka
          # default-label: mult-instances
-          default-label: gateway 
+         # default-label: gateway
+          default-label: circuit-breaker 
           uri: https://github.com/ervintrianodev/microservices-spring-y
           search-paths:
           - config-data
