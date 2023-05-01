@@ -57,7 +57,7 @@ public class UsuarioServiceImpl implements IUsuarioService {
 //metodos con restTemplate
 	public List<Carro> findAllCars(Long usuarioId) {
 		ResponseEntity<Carro[]> response = restTemplate
-				.getForEntity("http://localhost:8081/cars/findbyuser/" + usuarioId, Carro[].class);
+				.getForEntity("http://carros-service/cars/findbyuser/" + usuarioId, Carro[].class);
 		Carro[] carrosArray = response.getBody();
 		List<Carro> carros = Arrays.asList(carrosArray);
 		return carros;
@@ -66,7 +66,7 @@ public class UsuarioServiceImpl implements IUsuarioService {
 	@Override
 	public List<Moto> findAllMotos(Long usuarioId) {
 		ResponseEntity<Moto[]> response = restTemplate
-				.getForEntity("http://localhost:8082/motos/findbyuser/" + usuarioId, Moto[].class);
+				.getForEntity("http://motos-service/motos/findbyuser/" + usuarioId, Moto[].class);
 		Moto[] motosArray = response.getBody();
 		List<Moto> motos = Arrays.asList(motosArray);
 		return motos;
