@@ -15,7 +15,6 @@ import com.moto.models.Moto;
 import com.moto.services.IMotoService;
 
 @RestController
-@RequestMapping("/motos")
 public class MotosController {
 
 	@Autowired

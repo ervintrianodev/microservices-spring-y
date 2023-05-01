@@ -1,5 +1,0 @@
-package com.usuario.services;
-
-public interface ICarroService {
-
-}

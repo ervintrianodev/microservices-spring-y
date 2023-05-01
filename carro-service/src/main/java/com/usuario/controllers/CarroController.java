@@ -15,7 +15,6 @@ import com.usuario.models.Carro;
 import com.usuario.services.ICarroService;
 
 @RestController
-@RequestMapping("/cars")
 public class CarroController {
 
 	@Autowired

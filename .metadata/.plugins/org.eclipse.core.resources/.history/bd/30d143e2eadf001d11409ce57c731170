@@ -1,5 +1,0 @@
-package com.usuario.service.services;
-
-public interface IUsuarioService {
-
-}
